@@ -15,7 +15,9 @@ Add the following configuration your `.vscode/setting.json`
 {
     // etc...
     "markdown.marp.themes": [
-        "path/to/file.css",
+        "https://raw.githubusercontent.com/Tazoeur/marp_themes/main/css/rosepine.css",
+        // or copy the css file on your disk and use the following
+        "./path/to/file.css",
     ],
     // etc...
 }
